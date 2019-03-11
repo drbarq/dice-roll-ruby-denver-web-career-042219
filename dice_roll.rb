@@ -7,3 +7,9 @@ def roll
   puts rand(1..6)
   return rand(1..6)
 end
+
+
+def roll_array
+  puts [1,2,3,4,5,6].sample
+  return [1,2,3,4,5,6].sample
+end
